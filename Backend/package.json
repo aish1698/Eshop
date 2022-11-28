@@ -1,14 +1,26 @@
 {
-  "name": "backend",
+  "name": "eshop",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "backend of the eshop",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Aishwarya Pani",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aish1698/Eshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aish1698/Eshop/issues"
+  },
+  "homepage": "https://github.com/aish1698/Eshop#readme"
 }
